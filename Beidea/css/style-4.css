@@ -1,0 +1,94 @@
+/**
+* @template:  Beidea
+
+  -- style 2
+		
+*/
+
+@import url(style.css);
+
+/* -------------------------------------------------------
+                     Style 2 
+-------------------------------------------------------- */
+
+.header.demo4{
+	overflow: hidden !important;
+	background-image: url("http://via.placeholder.com/1920x1080");
+}
+
+.header.demo4 .caption{
+	padding: 0 10px;
+}
+
+.demo4 .owl-theme .owl-nav [class*=owl-]{
+	background: rgba(0,0,0,.5);
+	color: #eee;
+	padding: 0 10px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 20px;
+	opacity: 0;
+	transition: all .5s;
+}
+
+.demo4:hover .owl-theme .owl-nav [class*=owl-]{
+	opacity: 1;
+}
+
+.demo4 .owl-prev{
+	position: absolute;
+	top: calc(50% - 50px);
+	left: -5px;
+}
+
+.demo4 .owl-next{
+	position: absolute;
+	top: calc(50% - 50px);
+	right: -5px;
+}
+
+
+.btn-bg-md:hover,
+.btn-bord-md:hover,
+.section-head h6,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li .active,
+.us .item span,
+.team .team-item .info h6,
+.team .team-item .info span:hover,
+.numbers .numb-item span,
+.services .tabs-icon .active,
+.portfolio .filtering .active,
+.clients .client-say span,
+.clients .client-say .client-item h6,
+.clients .owl-theme .owl-dots .active span,
+.price .active .button,
+.blog .post-content a span,
+.blog .post-content .info li span,
+.contact .main-form input[type="submit"]:hover,
+.map .map-toggle span:after,
+footer .main-footer .footer-logo span
+{
+  color: #00bc66 !important;
+}
+
+.btn-bg-md,
+.us .item h6:after,
+.team .skills .item .skills-progress span,
+.numbers .numb-item h3:after,
+.clients .owl-theme .owl-dots .active span,
+.price .active,
+.contact .main-form input[type="submit"],
+footer .main-footer .social-icon span:hover
+{
+  background: #00bc66 !important;
+}
+
+.btn-bg-md:hover,
+.btn-bord-md:hover,
+.btn-bg-md,
+.price .active,
+.contact .main-form input[type="submit"]:hover
+{
+  border-color: #00bc66 !important;
+}

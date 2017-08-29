@@ -1,0 +1,92 @@
+// Mission Products Section
+/*
+	"id"						Record ID
+	"showHide"			Show this record or hide it from the page
+	"productTitle"		Title 
+	"fontAwesome"	Selected font fron the Font Awesome library
+	"description"			Descriptive text
+	"href"					Hyperlink
+	"linkTarget"			Determines the anchor tags target attribute
+*/
+showMissionProducts([{
+        "id": 1,
+        "showHide": "show",
+        "productTitle": "Water Resources Database",
+        "fontAwesome": "database",
+        "description": "The Water Resource Database (WRDB), produced and maintained by the AGC's Hydrologic Analysis Team, is DoD's authoritative data source for OCONUS, land-based water resources information.",
+        "href": "https://mapper.agc.army.mil/hydro/index.html",
+        "linkTarget": "_blank"
+    },
+    {
+        "id": 2,
+        "showHide": "show",
+        "productTitle": "Country Summaries",
+        "fontAwesome": "globe",
+        "description": "Ideal for strategic water resource planning, these narrative and graphic depiction of water resources provide appraisals and assessments on a country or regional scale.",
+        "href": "https://cac.agc.army.mil/WaterResources/WaterResourcesProducts/product-catalog/",
+        "linkTarget": "_self"
+    },
+    {
+        "id": 3,
+        "showHide": "show",
+        "productTitle": "Water Resources Projects",
+        "fontAwesome": "file-text-o",
+        "description": "<span class=text-danger><strong>UNDER CONSTRUCTION: </strong></span>The Hydrologic Analysis Team provides special, on demand water resources analyses to meet the unique needs of the DoD user community.",
+        "href": "../../ace-repo/content/water-resources-landing-page.html",
+        "linkTarget": "_self"
+    },
+    {
+        "id": 4,
+        "showHide": "show",
+        "productTitle": "Water Consumption Calculator",
+        "fontAwesome": "calculator",
+        "description": "The WCC tool is the geospatially-enabled interface of CASCOM's 'Water Planning Guide' and  provides rapid calculation of daily water supply requirements information exportable via a secure website.</small>",
+        "href": "../../ace-repo/content/water-consumption-calculator.html",
+        "linkTarget": "_self"
+    },
+    {
+        "id": 5,
+        "showHide": "show",
+        "productTitle": "Urban Water Graphics",
+        "fontAwesome": "building-o",
+        "description": "Urban scale water resource analysis  to help plan and visualize urban military missions, support and stabilization operations, threat assessments, and other operations in cities of interest.",
+        "href": "https://cac.agc.army.mil/WaterResources/WaterResourcesProducts/product-catalog/",
+        "linkTarget": "_self"
+    },
+    {
+        "id": 6,
+        "showHide": "show",
+        "productTitle": "Water In The News",
+        "fontAwesome": "newspaper-o",
+        "description": "Water resources are increasingly important in today's world. Explore trending topics and events with the 'Water In the News' service.",
+        "href": "https://cac.agc.army.mil/WaterResources/WIN/win.html",
+        "linkTarget": "_blank"
+    },
+    {
+        "id": 7,
+        "showHide": "show",
+        "productTitle": "Water Resources References",
+        "fontAwesome": "book",
+        "description": "Technical manuals and additional resources useful to the successful completion of the DoD's bulk water supply mission.",
+        "href": "../content/water-resources-references.html",
+        "linkTarget": "_self"
+    },
+    {
+        "id": 8,
+        "showHide": "show",
+        "productTitle": "Hydrogeologic &amp; Geologic Maps",
+        "fontAwesome": "map-o",
+        "description": "Country and regional-scale maps that provide key hydrogeologic and geologic information on areas of interest in a geospatially-enabled GeoPDF format.",
+        "href": "https://cac.agc.army.mil/WaterResources/WaterResourcesProducts/product-catalog/",
+        "linkTarget": "_self"
+    },
+    {
+        "id": 9,
+        "showHide": "show",
+        "productTitle": "Mobile Water Resources",
+        "fontAwesome": "mobile",
+        "description": "Take your water resources data on the go with our mobile water resources application. Become a data collector and upload your own water points for other users to discover. [Coming Soon]",
+        "href": "../content/hydra-app-landing-page.html",
+        "linkTarget": "_self"
+    }
+])

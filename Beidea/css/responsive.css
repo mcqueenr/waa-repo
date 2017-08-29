@@ -1,0 +1,80 @@
+
+/* -------------------------------------------------------
+                     phone & tablet 
+-------------------------------------------------------- */
+
+@media (max-width: 767px){
+
+	.navbar-default .navbar-toggle{
+		background: none;
+		margin-top: 15px;
+		border: none;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+		color: #111 !important;
+	}
+
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus
+	{
+		background: none;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #fff;
+	}
+
+	.nav-scroll .navbar-toggle .icon-bar{
+		background: #111;
+	}
+		
+	.navbar-default .navbar-collapse{
+		text-align: center;
+		border: none;
+		background: #fff;
+		margin-top: 5px;
+	}
+
+	.header .caption h2{
+		font-size: 35px;
+	}
+
+	.services .tabs-icon .active:after{
+		display: none;
+	}
+
+	.us .item,
+	.team .team-item,
+	.contact .info .item
+	{
+		margin-bottom: 50px;
+	}
+
+	.portfolio .filtering span{
+		padding: 0 10px 0;
+	}
+}
+
+@media (max-width: 991px){
+
+	.navbar-default .navbar-nav>li{
+		margin: 25px 10px 0;
+		padding: 4px;
+	}
+
+	.header .caption h2{
+		font-size: 45px;
+	}
+
+	.numbers .numb-item,
+	.price .prc-item,
+	.blog .post
+	{
+		margin-top: 50px;
+	}
+
+	.services-content .services-info{
+		margin-bottom: 30px;
+	}
+}
