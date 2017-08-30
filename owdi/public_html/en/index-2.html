@@ -10,7 +10,7 @@
     <!-- ############### VIEWPORT META TAG ############### -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1,   user-scalable=no" />
 
-    <title>WAAftp</title>
+    <title>WAA</title>
     <link rel="icon" href="../img/doi.ico" type="image/x-icon" />
     <link href="../css/overlay.css?version=1.1.0" rel="stylesheet" type="text/css">
     <link href="../css/doi.css?version=1.1.0" rel="stylesheet" type="text/css">
@@ -21,7 +21,13 @@
     <link href="../css/before-after.css?version=1.1.0" rel="stylesheet" type="text/css">
     <link href="../css/dygraph.css?version=1.1.0" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Roboto:400,500,700,100,300" rel="stylesheet" type="text/css">
-
+    <style type="text/css">
+        .main-logo-03 {
+            height: 100px !important;
+            width: 100px !important;
+            margin: 2px;
+        }
+    </style>
     <script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
     <script>
         $(document).on('mobileinit', function() {
@@ -60,6 +66,7 @@
             <div class="field__items">
                 <div class="field__item even"><img typeof="foaf:Image" src="#" width="1280" height="368" alt="image-placeholder" draggable="false"></div>
             </div>
+
         </div>
         <div class="info group-photo-info field-group-div">
             <div class="field field--name-field-caption field--type-text-long field--label-hidden">
@@ -227,10 +234,10 @@
 
                     <div class="main one-column--main">
                         <div class="panel-pane pane-page-logo">
-                            <a href="/" rel="external" id="logo" title="Home"><img src="#" alt="Home"></a>
+                            <a href="/" rel="external" id="" title="Home"><img class="main-logo-03" src="../img/main-logo-03.png" alt="Home"></a>
                         </div>
                         <div class="panel-pane pane-custom pane-1 pane-page-site-name">
-                            <p><a href="/" rel="external">U.S. Department of the Interior</a></p>
+                            <p><a href="/" rel="external">WAA</a></p>
                         </div>
                     </div>
                 </div>
@@ -238,9 +245,6 @@
         </div>
         <div class="l-region l-region--navigation">
 
-            <!--	  
-				  		<a href="../es/index.html" rel="external"><div id="spanish" class="languageChanger"><p>Espa&#241;ol</p></div></a>
-		-->
             <!-- begin navigation panels -->
 
             <div id="block-panels-mini-doi-navigation" class="block block--panels-mini block--panels-mini-doi-navigation">
@@ -260,7 +264,7 @@
                                                         <div class="content">
                                                             <div class="field field--name-field-menu-link-parent field--type-link-field field--label-hidden">
                                                                 <div class="field__items">
-                                                                    <div class="field__item even"><a href="/whoweare" rel="external" class="menu-link-parent">dd1</a></div>
+                                                                    <div class="field__item even"><a href="#" rel="external" class="menu-link-parent">dd1</a></div>
                                                                 </div>
                                                             </div>
                                                             <div class="menu-link-dropdown">
@@ -512,8 +516,8 @@
             <div class="widget">
                 <div id="keynote1" class="keynote">
                     <div id="pin1" class="pin">
-                        <h1>Drought in the Colorado River Basin</h1>
-                        <h2 id="emphasized">Insights using open data</h2>
+                        <h1>SECTION ONE</h1>
+                        <h2 id="emphasized">SECTION ONE</h2>
 
                         <a href="javascript:void(0)" onclick="window.scrollBy(0, 300);">
                             <img title="Scroll down to view this application." id="scrollDownArrow" src="../img/herdingarrow.png" alt="scroll down arrow" />
@@ -535,46 +539,19 @@
         <section id="app-explanation" class="section">
             <div class="widget">
                 <div class="sectionContent">
-                    <p>Since 2000, the Colorado River Basin (Basin) has been experiencing a historic, extended drought that has impacted regional water supply and other resources, such as hydropower, recreation, and ecologic services. During this time, the
-                        Basin has experienced its lowest 16-year period of inflow in over 100 years of record keeping, and reservoir storage in the Colorado River system has declined from nearly full to about half of capacity. </p>
+                    <p>paragraph</p>
+                    <p>paragraph 2</p>
 
-
-                    <p>This application was developed by the U.S. Geological Survey and the Bureau of Reclamation in support of the Department of the Interior’s <a href="http://acwi.gov/spatial/owdi/" target="_blank">Open Water Data Initiative</a> (OWDI).
-                        This visualization is part of a multi-agency effort to showcase the usefulness of open data (i.e., data provided in a discoverable, sharable, and machine-readable format) by exploring the current 16-year drought and its effects
-                        on the Colorado River Basin. </p>
 
                     <div id="appExplainHiddenContent" class="hiddenContent">
 
-                        <p>Concern is growing about the impacts of the ongoing drought and declining reservoir levels, such as decreasing water supply and the possibility of a first-ever shortage condition of drinking water for the Lower Basin; decreasing
-                            hydropower capacities at Lake Powell and Lake Mead; the potential for loss of hydroelectric generation at Lake Powell; reduced recreational opportunities; and changes to in-stream flows that support ecosystems.</p>
-
-                        <p>In response to drought conditions, Federal agencies and stakeholders throughout the Basin have been working together to find creative ways to reduce the effects of the drought on the people and resources that rely on water from
-                            the Colorado River.</p>
-
-                        <p>Scroll down to learn more about the importance of the Colorado River, the impacts of the current drought, and the ways in which the drought is being managed in the Basin.</p>
+                        <p>hidden paragraph</p>
 
                     </div>
                     <!--Hidden Content-->
 
                     <p id="appExplainReadMore" class="readMore">Read More >></p>
 
-                </div>
-
-                <div class="socialMedia onWhite">
-
-                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Very cool visualization of the Colorado River Basin drought!&hashtags=crdrought,owdi%20https:%2F%2Fwww.doi.gov%2Fwater%2Fowdi.cr.drought%2Fen%2Findex.html" target="_blank">
-                        <img src="../img/social-media/twitter-blue-01.svg" alt="twitter icon" />
-                    </a>
-                    <div class="widget">
-                        <a href="https://github.com/USGS-CIDA/OWDI-Lower-Colorado-Drought-Vis" target="_blank">
-                            <img src="../img/social-media/github-blue-01.svg" alt="github icon" />
-                        </a>
-                    </div>
-
-                    <img id="appExplainLinkOut" src="../img/social-media/link-blue-01.svg" alt="link icon" />
-                    <div id="appExplainLink" class="takeLinkBlue">
-                        <input id="appExplainURL" title="Link to Application Explanation" type="text" value="http://doi.gov/water/owdi.cr.drought/en/index.html#app-explanation">
-                    </div>
                 </div>
 
             </div>
@@ -604,7 +581,7 @@
             <div class="widget">
                 <div id="keynote2" class="keynote">
                     <div id="pin2" class="pin">
-                        <h2>The Colorado River is a lifeline.</h2>
+                        <h2>SECTION TWO</h2>
                     </div>
                 </div>
 
@@ -623,59 +600,25 @@
         <section id="co-river-lifeline" class="section">
             <div class="widget">
                 <div class="sectionContent">
-                    <p>Water from the Colorado River is essential for life in parts of the southwestern United States and northwestern Mexico. According to the Colorado River Basin Water Supply and Demand Study (2012), the Colorado River and its tributaries:</p>
+                    <p>Lead paragraph</p>
 
-                    <ul>
-                        <li>Supply more than 1 in 10 Americans with some, if not all, of their water for municipal use, including drinking water.</li>
-
-                        <li>Provide irrigation water to more than 5.5 million acres (approximately 8,590 square miles) of land.
-                        </li>
-
-                        <li>Are essential as a physical, economic and cultural resource to at least <a href="http://www.bia.gov/WhoWeAre/BIA/OIS/TribalGovernmentServices/TribalDirectory/" target="_blank">22 federally recognized Tribes</a>. </li>
-                        <li>Support 4,200 megawatts of electrical generating capacity, providing power to hundreds of local areas and millions of people.</li>
-                        <li>Are directly linked to nine <a href="http://www.nps.gov/index.htm" target="_blank">National Park Service</a> units and seven <a href="http://www.fws.gov/" target="_blank">National Wildlife Refuges</a>, supporting over $1 billion
-                            in tourism revenue associated with outdoor recreation and wildlife.</li>
-                        <li>Provide habitat for a wide range of species, including <a href="http://www.fws.gov/endangered/esa-library/pdf/ESA_basics.pdf" target="_blank">threatened and endangered</a> species, as well as other species of wildlife and vegetation.</li>
-
-                    </ul>
-
-
-                    <button class="supportinginfo" id="sectionLLButton">Supporting Info</button>
+                    <button class="supportinginfo" id="sectionLLButton">click for more</button>
 
                     <div class="supportingInfoContent" id="sectionLLInfo">
-                        <p> Bureau of Reclamation, 2012. <a href="http://www.usbr.gov/lc/region/programs/crbstudy/finalreport/Study%20Report/CRBS_Study_Report_FINAL.pdf" target="_blank">Colorado River Basin Water Supply and Demand Study</a>. </p>
+                        <p>some text! <a href="#" target="_blank">a link!</a>. </p>
 
                     </div>
 
-
-
-                    <div id="photoPanel">
+                    <!--div id="photoPanel">
                         <img src="../img/photo-panel/farming.jpg?version=1.1.0" alt="farming in Colorado" />
                         <img src="../img/photo-panel/electricity.jpg?version=1.1.0" alt="electirciy in Colorado" />
                         <img src="../img/photo-panel/recreation.jpg?version=1.1.0" alt="recreation in Colorado" />
                         <img src="../img/photo-panel/wetland.jpg?version=1.1.0" alt="wetland in Colorado" />
                         <img src="../img/photo-panel/desert.jpg?version=1.1.0" alt="desert in Colorado" />
                         <img src="../img/photo-panel/recreation2.jpg?version=1.1.0" alt="recreation in Colorado" />
-                    </div>
+                    </div-->
 
 
-                </div>
-
-                <div class="socialMedia onWhite">
-
-                    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Very cool visualization of the Colorado River Basin drought!&hashtags=crdrought,owdi%20https:%2F%2Fwww.doi.gov%2Fwater%2Fowdi.cr.drought%2Fen%2Findex.html" target="_blank">
-                        <img src="../img/social-media/twitter-blue-01.svg" alt="twitter icon" />
-                    </a>
-                    <div class="widget">
-                        <a href="https://github.com/USGS-CIDA/OWDI-Lower-Colorado-Drought-Vis" target="_blank">
-                            <img src="../img/social-media/github-blue-01.svg" alt="github icon" />
-                        </a>
-                    </div>
-
-                    <img id="coRiverLifeLineLinkOut" src="../img/social-media/link-blue-01.svg" alt="link icon" />
-                    <div id="coRiverLifeLineLink" class="takeLinkBlue">
-                        <input id="coRiverLifeLineURL" title="Link to Lifeline Section" type="text" value="http://doi.gov/water/owdi.cr.drought/en/index.html#coRiverLifeLine">
-                    </div>
                 </div>
 
             </div>
@@ -700,7 +643,7 @@
 
                 <div id="keynote6" class="keynote">
                     <div id="pin6" class="pin">
-                        <h2>One river, two parts.</h2>
+                        <h2>SECTION THREE</h2>
                     </div>
                 </div>
 
